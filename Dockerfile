@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3111
 
 # 启动命令
-CMD ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "3111"]
